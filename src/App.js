@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
-import Dinner from "./dinner.js";
+import Lunch from "./lunch.js";
 
 function App() {
   return (
     <div className="App">
       <h2>Bootcamp class 3</h2>
-      <Dinner dishName="chicken biryani" />
+      <Lunch dishName="spaghetti" sweetDish="custard" />
+      <hr />
     </div>
   );
 }
